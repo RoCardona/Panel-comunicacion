@@ -7,6 +7,7 @@ import { AsignaturaComponent } from './asignatura/asignatura.component';
 import { CocinaComponent } from './cocina/cocina.component';
 import { ColorComponent } from './color/color.component';
 import { EventoComponent } from './evento/evento.component';
+import { PersonaComponent } from './persona/persona.component';
 
 
 
@@ -18,7 +19,8 @@ import { EventoComponent } from './evento/evento.component';
     AsignaturaComponent,
     CocinaComponent,
     ColorComponent,
-    EventoComponent
+    EventoComponent,
+    PersonaComponent
   ],
   imports: [
     CommonModule

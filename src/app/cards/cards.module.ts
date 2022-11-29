@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AlimentoAnimalComponent } from './alimento-animal/alimento-animal.component';
 import { AlimentoProcesadoComponent } from './alimento-procesado/alimento-procesado.component';
 import { AnimalComponent } from './animal/animal.component';
+import { AsignaturaComponent } from './asignatura/asignatura.component';
 
 
 
@@ -10,7 +11,8 @@ import { AnimalComponent } from './animal/animal.component';
   declarations: [
     AlimentoAnimalComponent,
     AlimentoProcesadoComponent,
-    AnimalComponent
+    AnimalComponent,
+    AsignaturaComponent
   ],
   imports: [
     CommonModule

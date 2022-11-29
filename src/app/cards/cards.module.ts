@@ -4,6 +4,7 @@ import { AlimentoAnimalComponent } from './alimento-animal/alimento-animal.compo
 import { AlimentoProcesadoComponent } from './alimento-procesado/alimento-procesado.component';
 import { AnimalComponent } from './animal/animal.component';
 import { AsignaturaComponent } from './asignatura/asignatura.component';
+import { CocinaComponent } from './cocina/cocina.component';
 
 
 
@@ -12,7 +13,8 @@ import { AsignaturaComponent } from './asignatura/asignatura.component';
     AlimentoAnimalComponent,
     AlimentoProcesadoComponent,
     AnimalComponent,
-    AsignaturaComponent
+    AsignaturaComponent,
+    CocinaComponent
   ],
   imports: [
     CommonModule

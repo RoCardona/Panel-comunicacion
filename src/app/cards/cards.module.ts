@@ -6,6 +6,7 @@ import { AnimalComponent } from './animal/animal.component';
 import { AsignaturaComponent } from './asignatura/asignatura.component';
 import { CocinaComponent } from './cocina/cocina.component';
 import { ColorComponent } from './color/color.component';
+import { EventoComponent } from './evento/evento.component';
 
 
 
@@ -16,7 +17,8 @@ import { ColorComponent } from './color/color.component';
     AnimalComponent,
     AsignaturaComponent,
     CocinaComponent,
-    ColorComponent
+    ColorComponent,
+    EventoComponent
   ],
   imports: [
     CommonModule

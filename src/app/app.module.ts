@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { BackofficeComponent } from './backoffice/backoffice.component';
+import { BackofficeuserComponent } from './backofficeuser/backofficeuser.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutusComponent,
-    BackofficeComponent
+    BackofficeComponent,
+    BackofficeuserComponent
   ],
   imports: [
     BrowserModule,

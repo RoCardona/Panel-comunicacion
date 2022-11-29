@@ -9,6 +9,9 @@ import { BackofficeuserComponent } from './backofficeuser/backofficeuser.compone
 import { ContactComponent } from './contact/contact.component';
 import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
+import { MainComponent } from './main/main.component';
+import { RegisterComponent } from './register/register.component';
+import { VistadetalleComponent } from './vistadetalle/vistadetalle.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { LoginComponent } from './login/login.component';
     BackofficeuserComponent,
     ContactComponent,
     LandingComponent,
-    LoginComponent
+    LoginComponent,
+    MainComponent,
+    RegisterComponent,
+    VistadetalleComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { BackofficeComponent } from './backoffice/backoffice.component';
 import { BackofficeuserComponent } from './backofficeuser/backofficeuser.component';
 import { ContactComponent } from './contact/contact.component';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutusComponent,
     BackofficeComponent,
     BackofficeuserComponent,
-    ContactComponent
+    ContactComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
